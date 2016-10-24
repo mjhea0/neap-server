@@ -13,3 +13,12 @@ This is the server-side of our NEAP App. It's a RESTful API. It serves up JSON.
 1. Set up knex queries
 1. set up env variables
 1. add control (optional)
+
+## Deployment
+
+1. Setup Heroku
+1. Push to Heroku
+1. Setup db
+1. Run migrations
+1. Run seeds
+1. Heroku restart
