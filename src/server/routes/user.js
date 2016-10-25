@@ -43,7 +43,7 @@ router.post('/login', (req, res, next) => {
   });
 });
 
-router.get('/user',
+router.get('/status',
   ensureAuthenticated,
   (req, res, next)  => {
   res.status(200).json({
