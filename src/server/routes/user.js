@@ -70,7 +70,7 @@ function getUser(username) {
 
 function comparePass(userPassword, databasePassword) {
   const bool = bcrypt.compareSync(userPassword, databasePassword);
-  if (!bool) throw new Error('bad pass silly money');
+  if (!bool) throw new Error();
   else return true;
 }
 
